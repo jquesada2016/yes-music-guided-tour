@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="manifest" href="/manifest.json">
+	%sveltekit.head%
+
+	<style>
+		@import "tailwindcss";
+		@plugin "daisyui";
+
+		@font-face {
+			font-family: 'Material Symbols Outlined';
+			font-style: normal;
+			src: url(/material_symbols_outlined.woff2) format('woff2');
+		}
+
+		.icon {
+			font-family: 'Material Symbols Outlined';
+			font-weight: normal;
+			font-style: normal;
+			font-size: 32px;
+			line-height: 1;
+			letter-spacing: normal;
+			text-transform: none;
+			display: inline-block;
+			white-space: nowrap;
+			word-wrap: normal;
+			direction: ltr;
+			-webkit-font-feature-settings: 'liga';
+			-webkit-font-smoothing: antialiased;
+			font-variation-settings:
+				'FILL' 0,
+				'wght' 400,
+				'GRAD' 0,
+				'opsz' 24
+		}
+	</style>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>

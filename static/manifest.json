@@ -1,0 +1,18 @@
+{
+  "name": "Tour Guiado",
+  "short_name": "Tour Guiado",
+  "description": "Una aplicaci'on para realizar un tour guiado.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "/wheel.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "orientation": "portrait",
+  "scope": "/"
+}
